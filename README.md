@@ -1,6 +1,6 @@
 # cau-webtech-final-2024
 
-UpSword Bot (Legacy Version)의 Web Version 포팅 및 신버전 개발입니다.
+2024년 중앙대학교 예술공학부 표준웹테크놀로지 기말과제용 홈페이지입니다.
 
 ## Commit convention
 ### 커밋 종류
