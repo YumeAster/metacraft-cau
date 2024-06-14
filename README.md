@@ -22,3 +22,9 @@ UpSword Bot (Legacy Version)의 Web Version 포팅 및 신버전 개발입니다
 - chore(game-frontend): lodash 디펜던시 추가
 - refactor(game-frontend): 게임 시작 기능 리팩토링
 - docs(game-frontend): README 작성
+
+
+## Branch
+- main : 메인 브랜치 / 웹사이트 호스팅 시 보여질 내용
+- develop : 개발 브랜치 / 개발용 메인 브랜치. 기능 개발 후 해당 브랜치랑 merge 할 것.
+- feat : 기능 브랜치 / 어떠한 기능을 추가할 때 develop에서 분기하여 생성. feat/<name> 형식으로 생성. 기능 개발 완료 후 develop 브랜치와 merge
