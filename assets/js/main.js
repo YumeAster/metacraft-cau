@@ -245,4 +245,34 @@
   }
   window.addEventListener('load', initClientsSwiper);
 
+  let backgroundList = document.querySelectorAll('#hero li')
+  let currentBackgroundIndex = 0
+
+  for(let i = 0; i < backgroundList.length; i++) {
+    let t = document.createElement('div')
+    if (i === 0) {
+      t.style.backgroundColor = "white"
+    }
+    t.classList.add('circle')
+    document.getElementById("heroIndex").appendChild(t)
+  }
+
+  setInterval(function () {
+    console.log(currentBackgroundIndex)
+    currentBackgroundIndex = (currentBackgroundIndex + 1) % backgroundList.length;
+    for(let i = 0; i < backgroundList.length; i++) {
+      if(i === currentBackgroundIndex){
+        console.log(backgroundList[i])
+        backgroundList[i].style.setProperty('opacity', 1);
+        document.getElementById("heroIndex").children.item(i).style.backgroundColor = "white"
+      }
+      else {
+        backgroundList[i].style.setProperty('opacity', 0);
+        document.getElementById("heroIndex").children.item(i).style.backgroundColor = "transparent"
+      }
+    }
+  }, 5000)
+
 })()
+
+

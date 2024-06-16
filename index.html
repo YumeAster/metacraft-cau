@@ -44,34 +44,35 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Moderna</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>Metacraft</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="active " href="index.html">홈</a></li>
+          <li><a href="about.html">트렌드</a></li>
+          <li><a href="services.html">검색</a></li>
+          <li class="dropdown"><a href="#"><span>커뮤니티</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">자유게시판</a></li>
+              <li><a href="#">이벤트</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>랭킹</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">일간 랭킹</a></li>
+              <li><a href="#">주간 랭킹</a></li>
+              <li><a href="#">월간 랭킹</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>마이페이지</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">내 정보</a></li>
+              <li><a href="#">내 건축물</a></li>
+              <li><a href="#">내 게시물</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -83,33 +84,24 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <section id="hero" class="d-flex justify-content-center align-items-center flex-column">
+    <ul>
+      <li style="--bg-image: url('../img/background/background_01.jpg'); opacity: 1"></li>
+      <li style="--bg-image: url('../img/background/background_02.jpg'); opacity: 0"></li>
+      <li style="--bg-image: url('../img/background/background_03.jpg'); opacity: 0"></li>
+      <li style="--bg-image: url('../img/background/background_04.jpg'); opacity: 0"></li>
+    </ul>
+    <div class="border">
+
+    </div>
+
+    <div id="heroCarousel" class="container carousel carousel-fade carousel-custom d-flex align-content-center" data-bs-ride="carousel" data-bs-interval="5000">
 
       <!-- Slide 1 -->
-      <div class="carousel-item active">
+      <div class="carousel-item active d-flex justify-content-center">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <h2 class="animate__animated animate__fadeInDown">블록 위에 펼쳐지는 무한한 상상</h2>
+          <p class="animate__animated animate__fadeInUp">여기서 당신의 꿈이 현실이 됩니다.</p>
         </div>
       </div>
 
@@ -122,6 +114,8 @@
       </a>
 
     </div>
+
+    <div id="heroIndex" class="d-flex flex-row justify-content-center justify-content-evenly"></div>
   </section><!-- End Hero -->
 
   <main id="main">
