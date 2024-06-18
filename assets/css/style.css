@@ -6,6 +6,8 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -36,6 +38,13 @@ h6,
 
 :root {
   --bg-image: url('../img/background/background_01.jpg');
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*--------------------------------------------------------------
@@ -493,6 +502,7 @@ h6,
 #heroIndex {
   width: 15%;
   height: 1em;
+  padding-bottom: 2%;
 }
 
 /*--------------------------------------------------------------
@@ -559,7 +569,7 @@ h6,
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -604,6 +614,63 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+.daily-top {
+  height: 80%;
+  color: #fff;
+  position: relative;
+  background-color: transparent;
+  background-image: var(--bg-image);
+  background-size: cover;
+}
+
+.daily-top::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(1px);
+}
+
+.daily-rank {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-shadow: black 0 0 5px;
+}
+
+.daily-title {
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: black 0 0 5px;
+}
+
+.daily-author {
+  position: absolute;
+  bottom: 3px;
+  right: 20px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-shadow: black 0 0 5px;
+}
+
+.main-number {
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.main-description {
+  font-size: 18px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
