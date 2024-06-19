@@ -12,7 +12,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Pretendard-Regular';
   color: #444;
 }
 
@@ -44,6 +44,13 @@ h6,
     font-family: 'GangwonEduPowerExtraBoldA';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -1422,6 +1429,13 @@ section {
   right: 0;
 }
 
+.portfolio .portfolio-item .portfolio-info h2 {
+  font-family: 'Pretendard-Regular';
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+}
+
 .portfolio .portfolio-item .portfolio-info h3 {
   font-size: 22px;
   color: #fff;
@@ -1479,6 +1493,15 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(30, 67, 86, 0.08);
+}
+
+.portfolio-details .portfolio-info h2 {
+  font-family: 'Pretendard-Regular';
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -2240,6 +2263,34 @@ section {
   padding-left: 5px;
   color: #bedae8;
   font-size: 14px;
+}
+
+
+.building-info {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.building-info img {
+  width: 15%;
+  margin-right: 10px;
+}
+
+.building-info .building-text {
+  padding: 3px 0;
+}
+
+.building-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.building-info p {
+  font-size: 14px;
+  margin: 0 0;
 }
 
 /*--------------------------------------------------------------
