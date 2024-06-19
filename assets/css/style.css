@@ -1429,14 +1429,22 @@ section {
   right: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info h2 {
+.portfolio-info h1 {
+  font-family: 'Pretendard-Regular';
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.portfolio .portfolio-info h2 {
   font-family: 'Pretendard-Regular';
   font-size: 28px;
   color: #fff;
   font-weight: bold;
 }
 
-.portfolio .portfolio-item .portfolio-info h3 {
+.portfolio .portfolio-info h3 {
   font-size: 22px;
   color: #fff;
   font-weight: bold;
